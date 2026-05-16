@@ -1,6 +1,6 @@
 {
-  "name": "myip-obsidian",
-  "version": "1.0.2",
+  "name": "obsidian-myip",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
