@@ -4,7 +4,9 @@ export const API = {
 
 export const UI = {
   CMD_INSERT_IP_NAME: "Insert IP Info at Cursor",
+  CMD_COPY_IP_NAME: "Copy Public IP to Clipboard",
   NOTICE_IP_INSERTED: "IP info inserted.",
+  NOTICE_IP_COPIED: "IP address copied to clipboard.",
   NOTICE_NO_MD_EDITOR: "No active Markdown editor found.",
 
   NOTICE_HTTP_ERROR: (status: number) =>
@@ -20,4 +22,7 @@ export const UI = {
 
   LABEL_IP: "IP Address:",
   LABEL_COUNTRY: "Country:",
+
+  SETTING_AUTO_COPY_NAME: "Auto-copy IP on insert",
+  SETTING_AUTO_COPY_DESC: "Automatically copy the IP address to clipboard when inserting into a note.",
 } as const;

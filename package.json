@@ -1,17 +1,29 @@
 {
   "name": "myip-obsidian",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -p tsconfig.json && node esbuild.config.mjs production",
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^24.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.59.3",
+    "@typescript-eslint/parser": "^8.59.3",
+    "builtin-modules": "^5.2.0",
+    "esbuild": "^0.28.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "glob": "^13.0.6",
     "obsidian": "^1.8.7",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.59.3"
   },
   "dependencies": {
     "crelt": "^1.0.6",

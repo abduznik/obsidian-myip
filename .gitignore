@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+dist/
+# main.js
+# styles.css
+# manifest.json
+# These are often committed in Obsidian plugins but let's at least ignore node_modules
