@@ -1,3 +1,9 @@
+## Support This Project
+
+> **All projects made with passion** 💙
+
+[![Sponsor me](https://img.shields.io/badge/❤️%20Sponsor-GitHub-red?style=for-the-badge)](https://github.com/sponsors/abduznik)  
+
 # My IP Info Obsidian Plugin
 
 This plugin for Obsidian fetches your public IP address and country information and inserts it into your notes.
